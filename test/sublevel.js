@@ -2,7 +2,7 @@ var test = require('tape')
 var model = require('modella')
 var level = require('memdb')
 var sublevel = require('level-sublevel')
-var modeldb = require('./modella-level')
+var modeldb = require('../modella-level')
 
 test('save', function(t) {
   t.plan(1)
